@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>EduBot Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .chat-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .chat-header {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+        }
+        .chat-header .fa-ellipsis-h, .chat-header .fa-times {
+            position: absolute;
+            top: 10px;
+            font-size: 18px;
+        }
+        .chat-header .fa-ellipsis-h {
+            right: 40px;
+        }
+        .chat-header .fa-times {
+            right: 10px;
+        }
+        .chat-body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            flex: 1;
+            overflow-y: auto;
+            background-color: #e0e0e0;
+        }
+        .chat-messages {
+            width: 100%;
+            padding: 10px;
+            overflow-y: auto;
+        }
+        .chat-message {
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .chat-message p {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 80%;
+        }
+        .chat-message.user {
+            justify-content: flex-end;
+        }
+        .chat-message.user p {
+            background-color: #ff0000;
+            color: white;
+            text-align: right;
+            padding: 15px;
+        }
+        .options-header {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+        }
+        .option {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-top: none;
+            cursor: pointer;
+        }
+        .option:hover {
+            background-color: #e1e1e1;
+        }
+        .chat-footer {
+            padding: 10px;
+            text-align: center;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ccc;
+            position: relative;
+        }
+        .chat-footer input {
+            width: calc(100% - 40px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            EduBot
+            <i class="fas fa-ellipsis-h"></i>
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="chat-body">
+            <div class="chat-messages">
+                <div class="chat-message">
+                    <p>Hello, I'm EduBot! I'm here to help you find learning tools and improve your class experience with resources across Stanford.</p>
+                </div>
+                <div class="chat-message user">
+                    <p>Hello</p>
+                </div>
+                <div class="chat-message">
+                    <p>I'm happy to help you on this journey. Please click one of the options below to get started:</p>
+                </div>
+                <div class="chat-message">
+                    <div class="options-header">Options</div>
+                    <div class="option">1. Explore common challenges</div>
+                </div>
+                <div class="chat-message user">
+                    <p>Explore common challenges</p>
+                </div>
+                <div class="chat-message">
+                    <p>I'm happy to help you improve your teaching experience.</p>
+                </div>
+                <div class="chat-message">
+                    <p>I'm happy to help you improve your teaching experience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" placeholder="Type your message...">
+            <i class="fas fa-microphone"></i>
+        </div>
+    </div>
+</body>
+</html>

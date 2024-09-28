@@ -1,0 +1,384 @@
+{
+  "FirstYear": {
+    "Semester1": {
+      "CourseCount": 7,
+      "TotalCredits": 22,
+      "Courses": {
+        "Mathematics I": {
+          "Topics": "Calculus, Linear Algebra, Differential Equations",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Tutorials": 1
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Physics": {
+          "Topics": "Mechanics, Waves, Optics",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Basic Electrical Engineering": {
+          "Topics": "DC Circuits, AC Circuits, Electrical Machines",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Tutorials": 1
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Engineering Graphics": {
+          "Topics": "Orthographic Projections, Isometric Projections, CAD",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 1,
+            "Practicals": 4
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Programming for Problem Solving": {
+          "Topics": "C Programming, Data Structures, Algorithms",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Workshop/Manufacturing Practices": {
+          "Topics": "Fitting, Carpentry, Welding, Machining",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 1,
+            "Practicals": 4
+          },
+          "Assessment": {
+            "Continuous": 60,
+            "EndSemester": 40
+          }
+        },
+        "Professional Ethics": {
+          "Topics": "Introduction to Ethics, Professional Conduct, Ethical Theories",
+          "Credits": 2,
+          "TeachingHours": {
+            "Lectures": 2
+          },
+          "Assessment": {
+            "Continuous": 50,
+            "EndSemester": 50
+          }
+        }
+      }
+    },
+    "Semester2": {
+      "CourseCount": 8,
+      "TotalCredits": 24,
+      "Courses": {
+        "Mathematics II": {
+          "Topics": "Multivariable Calculus, Complex Analysis, Probability and Statistics",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Tutorials": 1
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Chemistry": {
+          "Topics": "Atomic Structure, Chemical Bonding, Thermodynamics, Electrochemistry",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Basic Electronics Engineering": {
+          "Topics": "Semiconductor Devices, Digital Electronics, Analog Circuits",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Tutorials": 1
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Computer Organization and Architecture": {
+          "Topics": "Introduction to Computer Organization, Instruction Set Architecture, Memory Hierarchy",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Tutorials": 1
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Data Structures and Algorithms": {
+          "Topics": "Arrays, Linked Lists, Stacks, Queues, Trees, Graphs",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Environmental Science and Engineering": {
+          "Topics": "Introduction to Environmental Science, Air and Water Pollution, Solid Waste Management",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 1
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Communication Skills": {
+          "Topics": "Introduction to Communication, Verbal and Non-Verbal Communication, Group Discussion",
+          "Credits": 2,
+          "TeachingHours": {
+            "Lectures": 2
+          },
+          "Assessment": {
+            "Continuous": 50,
+            "EndSemester": 50
+          }
+        },
+        "Physical Education": {
+          "Topics": "Introduction to Physical Education, Sports and Games, Fitness and Wellness",
+          "Credits": 1,
+          "TeachingHours": {
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 60,
+            "EndSemester": 40
+          }
+        }
+      }
+    }
+  },
+  "SecondYear": {
+    "Semester3": {
+      "CourseCount": 7,
+      "TotalCredits": 22,
+      "Courses": {
+        "Mathematics III": {
+          "Topics": "Vector Calculus, Differential Equations, Numerical Methods",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Tutorials": 1
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Electrical Machines": {
+          "Topics": "DC Machines, AC Machines, Transformers",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Control Systems": {
+          "Topics": "Introduction to Control Systems, Transfer Functions, Stability Analysis",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Tutorials": 1
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Microprocessors and Microcontrollers": {
+          "Topics": "Introduction to Microprocessors, Microcontrollers, Interfacing",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Computer Networks": {
+          "Topics": "Introduction to Computer Networks, Network Topology, Network Protocols",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Database Management Systems": {
+          "Topics": "Introduction to DBMS, Data Modeling, SQL",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Software Engineering": {
+          "Topics": "Introduction to Software Engineering, Software Development Life Cycle, Testing",
+          "Credits": 2,
+          "TeachingHours": {
+            "Lectures": 2
+          },
+          "Assessment": {
+            "Continuous": 50,
+            "EndSemester": 50
+          }
+        }
+      }
+    },
+    "Semester4": {
+      "CourseCount": 8,
+      "TotalCredits": 24,
+      "Courses": {
+        "Power Systems": {
+          "Topics": "Introduction to Power Systems, Power Generation, Transmission and Distribution",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "Digital Signal Processing": {
+          "Topics": "Introduction to DSP, Discrete-Time Signals, Z-Transform",
+          "Credits": 4,
+          "TeachingHours": {
+            "Lectures": 3,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 30,
+            "EndSemester": 70
+          }
+        },
+        "VLSI Design": {
+          "Topics": "Introduction to VLSI, Digital Logic, CMOS Technology",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Web Development": {
+          "Topics": "Introduction to Web Development, HTML, CSS, JavaScript",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Data Mining and Warehousing": {
+          "Topics": "Introduction to Data Mining, Data Preprocessing, Clustering",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Artificial Intelligence and Machine Learning": {
+          "Topics": "Introduction to AI and ML, Supervised and Unsupervised Learning",
+          "Credits": 3,
+          "TeachingHours": {
+            "Lectures": 2,
+            "Practicals": 2
+          },
+          "Assessment": {
+            "Continuous": 40,
+            "EndSemester": 60
+          }
+        },
+        "Human-Computer Interaction": {
+          "Topics": "Introduction to HCI, User-Centered Design, Usability Engineering",
+          "Credits": 2,
+          "TeachingHours": {
+            "Lectures": 2
+          },
+          "Assessment": {
+            "Continuous": 50,
+            "EndSemester": 50
+          }
+        },
+        "Project Management": {
+          "Topics": "Introduction to Project Management, Project Planning, Risk Management",
+          "Credits": 2,
+          "TeachingHours": {
+            "Lectures": 2
+          },
+          "Assessment": {
+            "Continuous": 50,
+            "EndSemester": 50
+          }
+        }
+      }
+    }
+  }
+}

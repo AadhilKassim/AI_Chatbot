@@ -2,7 +2,6 @@ import json
 import requests
 import logging
 import os
-from termcolor import colored, cprint
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 

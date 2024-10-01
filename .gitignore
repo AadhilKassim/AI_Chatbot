@@ -1,2 +1,5 @@
+# Ignore the output.log file
 output.log
-key.txt
+
+# Ignore all .txt files
+*.txt

@@ -2,6 +2,7 @@ import json
 import requests
 import logging
 import os
+from termcolor import colored
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -120,7 +121,7 @@ def main():
                 print("Please enter a valid input.")
                 continue
             response = chat_with_gpt(user_input, syllabus_data, session)
-            print("\nEduBot:", response, '\n')
+            print(colored(f"\nEduBot: {response} \n", "yellow"))
     except KeyboardInterrupt:
         print("\nConversation ended by user.")
     finally:
